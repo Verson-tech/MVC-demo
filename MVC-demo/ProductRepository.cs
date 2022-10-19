@@ -3,7 +3,7 @@ using System.Data;
 
 namespace MVC_demo
 {
-    public class ProductRepository
+    public class ProductRepository : IProductRepository
     {
 
         private readonly IDbConnection _connection;
@@ -12,9 +12,12 @@ namespace MVC_demo
         {
             _connection = connection;
         }
-        public IEnumerable<Product> GetAllProducys()
+
+
+
+        public IEnumerable<Product> GetAllProducts()
         {
-            return _connection.Query<Product>("SELECT * FROM");
+            return _connection.Query<Product>("SELECT * FROM PRODUCTS");
         }
     }
 }
