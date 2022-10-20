@@ -1,8 +1,34 @@
-﻿@{
+﻿@model IEnumerable<Product>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+   @* <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+   <p>
+        <h2><bold>TO THE STORE</bold></h2>
+       
+       </p>
+</div>
+
+
+<div class="d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+        <img src="https://plus.unsplash.com/premium_photo-1661661573166-f8488f85030d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+@*        <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+        </ul>*@
+        <div class="card-body">
+            <a href="/Product/InsertProduct/">Add a New Product to the Database</a>
+@*            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>*@
+        </div>
+    </div>
 </div>
