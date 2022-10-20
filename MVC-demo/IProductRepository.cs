@@ -1,4 +1,5 @@
-﻿using System.Data.Common;
+﻿using MVC_demo.Models;
+using System.Data.Common;
 
 namespace MVC_demo
 {
@@ -8,6 +9,9 @@ namespace MVC_demo
         public Product GetProduct(int id);
 
         public void UpdateProduct(Product product);
-   
+        public void InsertProduct(Product productToInsert);
+        public IEnumerable<Category> GetCategories();
+        public Product AssignCategory();
+
     }
 }
