@@ -5,4 +5,4 @@
 2. View product:
 ![](https://github.com/Verson-tech/MVC-demo/blob/main/mvc-demo2.gif)
 3. Update product:
-!{}(https://github.com/Verson-tech/MVC-demo/blob/main/mvc-demo3.gif)
+![](https://github.com/Verson-tech/MVC-demo/blob/main/mvc-demo3.gif)
