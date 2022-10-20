@@ -19,5 +19,10 @@ namespace MVC_demo
         {
             return _connection.Query<Product>("SELECT * FROM PRODUCTS");
         }
+
+        public Product GetProduct(int id)
+        {
+            return _connection.QuerySingle<Product>("SELECT * FROM PRODUCTS WHERE PRODUCTID = @id", new { id = id });
+        }
     }
 }
