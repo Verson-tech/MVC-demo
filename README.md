@@ -6,3 +6,5 @@
 ![](https://github.com/Verson-tech/MVC-demo/blob/main/mvc-demo2.gif)
 3. Update product:
 ![](https://github.com/Verson-tech/MVC-demo/blob/main/mvc-demo3.gif)
+4. Create (INSERT) product:
+![](https://github.com/Verson-tech/MVC-demo/blob/main/mvc-demo-4.gif)
